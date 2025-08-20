@@ -1,0 +1,13 @@
+name = "PrettyMakie"
+uuid = "52a069d3-f8af-4799-bded-8a8dae05cffb"
+authors = ["Davide Papapicco"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.11"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
