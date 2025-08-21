@@ -3,7 +3,15 @@ uuid = "52a069d3-f8af-4799-bded-8a8dae05cffb"
 authors = ["Davide Papapicco"]
 version = "1.0.0-DEV"
 
+[deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+
 [compat]
+CairoMakie = "0.15.6"
+LaTeXStrings = "1.4.0"
+Makie = "0.24.6"
 julia = "1.11"
 
 [extras]
